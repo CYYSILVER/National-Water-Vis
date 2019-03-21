@@ -1,0 +1,154 @@
+/*
+color #e7fffe
+*/
+
+body {
+    width:100%;
+    background-color:#f5feff;
+  
+}
+
+svg {
+    margin:10px;
+    border-radius:10px;
+}
+
+/* 左上角的tooltip */
+.tooltip {
+    background: #02516773;
+    position:absolute;
+    float:left;
+    text-align: center;
+    color:white;
+    left:25px;
+    top:25px;
+    padding: 20px;
+    font: 20px sans-serif;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    z-index:999;
+}
+
+
+
+#div1 {
+	display:flex;
+}
+
+/* 中国地图div */
+.chinaMap {
+    position:relative;
+    
+ 	
+}
+
+
+/* 地图 */
+.gMap {
+    fill:#c1f5de;
+    stroke:#3c719a;
+   
+    
+
+}
+
+.provinceName {
+    fill:#392e85;
+    text-anchor:middle;
+    fill-opacity:0.2;
+    pointer-events:none;
+    font-size:12px;
+}
+
+.legend {
+	font-size:18px;
+	fill-opacity:0.8;
+
+}
+
+.button {
+	font-size: 16px;
+    border-radius:5px;
+    transition-duration: 0.2s;
+    border:1px solid #585858;
+    -webkit-transition-duration: 0.4s;
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+
+}
+
+.button:hover {
+    background-color: #0b7ccc;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   
+}
+
+.button:active {
+  	background-color: #8ccddc;
+  	transform: translateY(4px);
+}
+
+
+
+#zoomIn {
+	
+	width:25px;
+	height:40px;
+	top:30px;
+	right:20px;
+	position:absolute;
+   
+
+}
+
+#zoomOut {
+	width:25px;
+	height:40px;
+	top:80px;
+	right:20px;
+	position:absolute;
+}
+
+
+
+/* 监测站 */
+.gLoc {
+    fill:#101010;
+    stroke:#01556b;
+    fill-opacity:0.75;
+    
+}
+
+
+/* 监测站详细描述 */
+#description {
+	border:1px solid #d9d8ff;
+	border-radius: 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    box-sizing: border-box;
+    width:400px;
+    padding:25px;
+    box-shadow:0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color:#edf1e65c
+}
+
+
+
+
+/* 折线图 */
+.line-chart {
+   
+    border-radius:10px;
+
+}
+
+
+.line {
+    fill: none;
+    stroke-width: 1.5;
+    stroke-opacity:0.8;
+}
+ 
